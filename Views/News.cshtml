@@ -1,0 +1,274 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="description" content="Tutorial" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Tutorial</title>
+	<script src="https://kit.fontawesome.com/41c8b474e2.js"
+   crossorigin="anonymous"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+	crossorigin="anonymous" />
+	<link href="/media/f4mbotlj/style.css" rel="stylesheet" />
+</head>
+<body>
+	<header style="background-color: #F0EFE9">
+		<div class="container d-flex align-items-center">
+			<div class="logo" style="  margin-right: 3rem;"><img src="/media/enblnmqf/logo.png" alt="logo" /></div>
+			<div class="menu-container" style="  flex-grow: 1;">
+				<div class="top-menu d-flex" style="justify-content: space-between; padding-top: 1rem;">
+					<div class="left d-flex gap-3" style="justify-content: flex-start;">
+						<div>
+							<i class="fa-regular fa-phone-volume" style="margin-right: 0.5rem"></i>+46 (8) 121 470 50
+						</div>
+						<div style="width: 1px;background-color: black;height: auto;"></div>
+						<div><i class="fa-regular fa-envelope" style="margin-right: 0.5rem"></i>info@crito.com</div>
+						<div style="width: 1px;	background-color: black;height: auto;"></div>
+						<div>
+							<i class="fa-regular fa-location-dot" style="margin-right: 0.5rem"></i>Sveavägen 31, 111 34
+							STOCKHOLM
+						</div>
+					</div>
+					<div class="right" style="justify-content: flex-end;">
+						<i class="fa-brands fa-facebook"></i>
+						<i class="fa-brands fa-twitter"></i>
+						<i class="fa-brands fa-instagram"></i>
+						<i class="fa-brands fa-linkedin"></i>
+					</div>
+				</div>
+				<hr />
+				<div class="lower-menu d-flex" style="justify-content: space-between;">
+					<div class="left d-flex gap-4" style="justify-content: flex-start;">
+						<a style="text-decoration: none; color: black;" href="/">Home</a>
+						<a style ="text-decoration: none; color: black;" href="/service">Service</a>
+						<a style="text-decoration: none; color: black;" href="/news">News</a>
+						<a style="text-decoration: none; color: black;" href="/contact">Contact</a>
+					</div>
+					<div class="right" style="justify-content: flex-end;">
+						<button class="my-btn btn-primary" style="width: 122px; height: 48px"	>Login <i class="fa-solid fa-arrow-pointer fa-flip-horizontal"></i></button>
+					</div>
+				</div>
+			</div>
+			</div>
+	</header>
+	<section class="showcase-landing container-fluid"
+			 style="background-image: url(/media/prqpidg4/bg.png); height: 300px; position: relative;">
+		<div class="container holder"
+			 style="
+					display: flex;
+					flex-direction:column;
+					justify-content: center;
+					align-items: center;	
+height: 100%;
+				">
+		    <p class="grey-text">Home News</p>
+				<h1 style="font-size: 56px">
+					News & Articles
+				</h1>
+		</div>
+		<img src="/media/mslphdy0/element.png" style="position: absolute; left: 0; bottom: 0;" />
+	</section>
+			<section class="container" style="padding: 5rem 0">
+			<h2 style="font-weight: 700; margin-bottom: 2rem">
+				Our News And Articles
+			</h2>
+			<div
+				class="d-grid"
+				style="
+					grid-template-columns: repeat(3, 1fr);
+					grid-template-rows: auto;
+					gap: 1rem;
+				"
+			>
+				<div class="d-flex flex-column gap-3" style="max-width: 420px">
+					<img src="/media/5k1hpxys/person.png" alt="peep" />
+					<p class="grey-text">Business</p>
+					<h2>How To Use Digitalization In The Classroom</h2>
+					<p class="grey-text">
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
+						sed hic libero.
+					</p>
+				</div>
+				<div class="d-flex flex-column gap-3" style="max-width: 420px">
+					<img src="/media/fqciptnj/ai.png" alt="ai" />
+					<p class="grey-text">Business</p>
+					<h2>How To Implement Chat GPT In Your Projects</h2>
+					<p class="grey-text">
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
+						sed hic libero.
+					</p>
+				</div>
+				<div class="d-flex flex-column gap-3" style="max-width: 420px">
+					<img src="/media/4gmnqyjc/book.png" alt="peep" />
+					<p class="grey-text">Business</p>
+					<h2>The Guide To Support Modern CSS Design</h2>
+					<p class="grey-text">
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
+						sed hic libero.
+					</p>
+				</div>
+				<div class="d-flex flex-column gap-3" style="max-width: 420px">
+					<img src="./our-news-n-articles-assets/audience.png" alt="peopls" />
+					<p class="grey-text">Business</p>
+					<h2>Why You Need To Implement The Five S's</h2>
+					<p class="grey-text">
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
+						sed hic libero.
+					</p>
+				</div>
+				<div class="d-flex flex-column gap-3" style="max-width: 420px">
+					<img src="./our-news-n-articles-assets/ceiling.png" alt="lamps" />
+					<p class="grey-text">Business</p>
+					<h2>Get More Involved With Your End Users</h2>
+					<p class="grey-text">
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
+						sed hic libero.
+					</p>
+				</div>
+				<div class="d-flex flex-column gap-3" style="max-width: 420px">
+					<img src="./our-news-n-articles-assets/desks.png" alt="deskisk" />
+					<p class="grey-text">Business</p>
+					<h2>Guided Tour Of Our New Head Office In Stockholm</h2>
+					<p class="grey-text">
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
+						sed hic libero.
+					</p>
+				</div>
+				<div class="d-flex flex-column gap-3" style="max-width: 420px">
+					<img src="./our-news-n-articles-assets/laptop.png" alt="lappy" />
+					<p class="grey-text">Business</p>
+					<h2>Using Business Intelligence To Get Insights Into Our Business</h2>
+					<p class="grey-text">
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
+						sed hic libero.
+					</p>
+				</div>
+				<div class="d-flex flex-column gap-3" style="max-width: 420px">
+					<img src="./our-news-n-articles-assets/watch.png" alt="peep" />
+					<p class="grey-text">Business</p>
+					<h2>Apple Has Released New Products. Are They Any Good?</h2>
+					<p class="grey-text">
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
+						sed hic libero.
+					</p>
+				</div>
+				<div class="d-flex flex-column gap-3" style="max-width: 420px">
+					<img src="./our-news-n-articles-assets/journal.png" alt="peep" />
+					<p class="grey-text">Business</p>
+					<h2>How To Improve Your Teams And Get A Better Result</h2>
+					<p class="grey-text">
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
+						sed hic libero.
+					</p>
+				</div>
+			</div>
+			<div class="d-flex justify-content-center align-items-center mt-5">
+				<img src="our-news-n-articles-assets/Pagination.png" alt="" />
+			</div>
+		</section>
+			<section class="container-fluid"
+			 style="background-color: #f0efe9; padding: 5rem 0; position: relative">
+		<div class="container d-flex justify-content-between">
+			<h1 style="font-weight: 700">Get News Updates By Signup</h1>
+			<div>
+				<input style="
+							width: 300px;
+							border-radius: 25px;
+							border: none;
+							height: 56px;
+							padding-left: 2rem;
+							margin-right: 1rem;
+						"
+					   type="text"
+					   placeholder="username@domain.com" />
+				<button style="z-index: 200" class="my-btn">
+					Subscribe
+					<i class="fa-solid fa-arrow-pointer fa-flip-horizontal"></i>
+				</button>
+			</div>
+		</div>
+		<img src="/media/a01oytpf/element.png"
+			 alt="scribble"
+			 style="position: absolute; bottom: 20%; right: 0; z-index: 1" />
+	</section>
+		<footer class="container-fluid"
+			style="background-color: #0e1021; padding-top: 5rem; color: #ffffff">
+		<div class="container-fluid" style="position: relative">
+			<div class="container d-grid justify-content-between"
+				 style="grid-template-columns: 350px repeat(4, 1fr)">
+				<div>
+					<img src="/media/d3nbsoqy/logo.png"
+						 alt="logooo"
+						 style="margin-bottom: 1rem" />
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+						obcaecati voluptas voluptates! Voluptates laborum nam ratione
+						minus necessitatibus, iure praesentium.
+					</p>
+				</div>
+				<div>
+					<h2 style="margin-bottom: 2rem">Company</h2>
+					<div class="d-flex flex-column gap-2">
+						<p>About</p>
+						<p>Features</p>
+						<p>Works</p>
+						<p>Career</p>
+					</div>
+				</div>
+				<div>
+					<h2 style="margin-bottom: 2rem">Help</h2>
+					<div class="d-flex flex-column gap-2">
+						<p>Customer Support</p>
+						<p>Delivery Details</p>
+						<p>Terms & Conditions</p>
+						<p>Privacy Policy</p>
+					</div>
+				</div>
+				<div>
+					<h2 style="margin-bottom: 2rem">Resources</h2>
+					<div class="d-flex flex-column gap-2">
+						<p>Free eBooks</p>
+						<p>Development Tutorial</p>
+						<p>How to - Blog</p>
+						<p>Youtube Playlist</p>
+					</div>
+				</div>
+				<div>
+					<h2 style="margin-bottom: 2rem">Link</h2>
+					<div class="d-flex flex-column gap-2">
+						<p>Free eBooks</p>
+						<p>Development Tutorial</p>
+						<p>How to - Blog</p>
+						<p>Youtube Playlist</p>
+					</div>
+				</div>
+			</div>
+			<img src="/media/0iipdok1/rectangle-116.png"
+				 alt="scribble"
+				 style="position: absolute; right: 0; bottom: 0" />
+		</div>
+		<hr />
+		<div class="container-fluid p-2">
+			<div class="container d-flex justify-content-between align-items-center">
+				<div style="text-align: center">
+					<p>© 2023 Crito - Consulting Company Inc. All Rights Reserved.</p>
+				</div>
+				<div class="d-flex gap-4 align-items-center">
+					<i class="fa-brands fa-facebook"></i>
+					<i class="fa-brands fa-twitter"></i>
+					<i class="fa-brands fa-instagram"></i>
+					<i class="fa-brands fa-linkedin"></i>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+   integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+   crossorigin="anonymous"></script>
+</body>
+</html>
+
